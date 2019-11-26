@@ -4,8 +4,9 @@ class Person
   def initialize(name, candy_lover)
     @name = name
     @candy_lover = candy_lover
+  binding.pry 
   end
-
+   
   def tall?
     true
   end
@@ -27,4 +28,3 @@ class Person
     end
   end
 end
-binding.pry 
